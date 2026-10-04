@@ -137,7 +137,7 @@ footer{text-align:center;color:var(--mute);font-size:13px;margin-top:50px}
 
 <script>
 // Colle ici l'URL de ton application web Google Apps Script (voir apps-script.gs)
-const SCRIPT_URL = "COLLE_ICI_L_URL_APPS_SCRIPT";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzU8RX8ddsg6UZ6O6WHONsk-WyeP2gbomI2M39LDybGK2nuf-oQAZ_qNdTFjzYe3tcuNQ/exec";
 const ref = new URLSearchParams(location.search).get('ref') || '';
 // Même fonction que dans le script : le code personnel dérive de l'email
 function codeDe(email){let h=5381;String(email).toLowerCase().trim().split('').forEach(c=>{h=((h*33)^c.charCodeAt(0))>>>0});return h.toString(36).toUpperCase();}
